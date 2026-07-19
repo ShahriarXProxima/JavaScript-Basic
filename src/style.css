@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', serif;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: cadetblue;
+    padding: 30PX;
+    border-radius: 50px;
+    box-shadow: 0 8px 24px rgb(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 400px;
+    text-align: center;
+}
+
+#signupForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.click {
+    background-color: brown;
+    color: blanchedalmond;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-width: expanded;
+    cursor: pointer;
+    transition: backgrond 0.2s ease;
+    border-radius: 50px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-inline: auto;
+}
+
+
+button:hover {
+    background-color: coral;
+}
+
+.hidden {
+    display: none;
+}
+
+#submit {
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#reset {
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+}

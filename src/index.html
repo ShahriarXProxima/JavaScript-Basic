@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+    <form id="signupForm">
+        <h2>Join our community</h2>
+        <p>Get your coding tips directly in your inbox</p>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your Email"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password"><br>
+        <button type="submit" id="submit" class="click">Submit</button>
+        <button type="reset" id="reset" class="click">Reset</button>
+    </form>
+    <div id="successMessage" class="hidden">
+        <h2>You are in!</h2>
+        <p>Thanks for signing up,<span id="displayName"></span>!</p>
+
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
