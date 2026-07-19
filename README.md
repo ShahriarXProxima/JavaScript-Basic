@@ -18,30 +18,41 @@ This repo is a personal playground for learning and practicing core DOM concepts
 ## 🗂️ Project Structure
 
 ```
-js-dom-practice/
-├── 01-element-selection/
-├── 02-event-listeners/
-├── 03-dom-manipulation/
-├── 04-forms-and-validation/
-├── 05-event-delegation/
-├── 06-mini-projects/
-│   ├── todo-list/
-│   ├── modal/
-│   └── tabs/
-└── README.md
+Js-Basic/
+├── Practice/
+│   └── Basic/
+│       ├── index1.html
+│       ├── index2.html
+│       ├── index3.html
+│       ├── index4.html
+│       ├── index5.html
+│       ├── index6.html
+│       ├── script1.js
+│       ├── script2.js
+│       ├── script3.js
+│       ├── script4.js
+│       ├── script5.js
+│       ├── script6.js
+│       └── style3.css
+└── src/
+    ├── PracticeOne.js
+    ├── PracticeTwo.html
+    ├── index.html
+    ├── script.js
+    └── style.css
 ```
 
-Each folder contains its own `index.html`, `style.css`, and `script.js` so exercises can be opened and run independently.
+Each directory contains its own `index.html`, `style.css`, or `script.js` files.
 
 ## 🚀 Getting Started
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/js-dom-practice.git
+   git clone https://github.com/your-username/Js-Basic.git
    ```
-2. Navigate into any exercise folder
+2. Navigate into any directory
    ```bash
-   cd js-dom-practice/03-dom-manipulation
+   cd Js-Basic/Practice/Basic
    ```
 3. Open `index.html` in your browser (or use a tool like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for auto-reload)
 
